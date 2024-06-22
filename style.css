@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+:root{
+    --cor1: rgba(194, 185, 65, 0.89);
+    --cor2: rgba(202, 189, 0, 0.89);
+    --cor3: rgba(145, 138, 52, 0.89);
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-image: linear-gradient(to bottom, rgb(250, 97, 97), black);
+    background-attachment: fixed;
+}
+
+header{
+    width: 100%;
+    background-color: var(--cor2);
+    display: inline-block;
+    align-items: center;
+    margin: 0px 10px 10px 10px;
+}
+
+header img#logo_carrinho{
+    max-width: 50px;
+    display: block;
+    margin: auto;
+}
+
+header img#logo_login{
+    max-width: 40px;
+    display: block;
+    margin: auto;
+}
+
+nav{
+    margin: 10px;
+    text-align: center;
+}
+
+nav li{
+    display: inline-block;
+}
+
+footer{
+    background-color: var(--cor2);
+    margin: 0px 10px 10px 10px;
+    text-align: center;
+}
