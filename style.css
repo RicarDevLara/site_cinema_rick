@@ -4,6 +4,7 @@
     --cor1: rgba(194, 185, 65, 0.89);
     --cor2: rgba(202, 189, 0, 0.89);
     --cor3: rgba(145, 138, 52, 0.89);
+    --cor4: rgba(83, 78, 14, 0.521);
 }
 
 *{
@@ -19,21 +20,28 @@ body{
 header{
     width: 100%;
     background-color: var(--cor2);
-    display: inline-block;
-    align-items: center;
+    text-align: center;
     margin: 0px 10px 10px 10px;
+}
+
+header img{
+    padding: 20px;
+}
+
+header a{
+    width: auto;
 }
 
 header img#logo_carrinho{
     max-width: 50px;
-    display: block;
-    margin: auto;
+    display: inline;
+    margin: 10px;
 }
 
 header img#logo_login{
     max-width: 40px;
-    display: block;
-    margin: auto;
+    display: inline;
+    margin: 10px;
 }
 
 nav{
@@ -41,12 +49,16 @@ nav{
     text-align: center;
 }
 
-nav li{
-    display: inline-block;
+nav a{
+    text-decoration: none;
 }
 
 footer{
     background-color: var(--cor2);
     margin: 0px 10px 10px 10px;
     text-align: center;
+}
+
+footer strong{
+    color: var(--cor4);
 }
